@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+
+# we need to configure github integration information
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: Ov23lioabzVPB4HjDHAy
+            clientSecret: 59ced79f04f3325a1bbe588b2d968f6614509581
