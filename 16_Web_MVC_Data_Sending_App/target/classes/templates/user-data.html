@@ -1,0 +1,18 @@
+<html xmlns:th="https://www.thymeleaf.org"> <!--optional -->
+	<head>
+		<title>Abirami - Web MVC</title>
+	</head>
+	
+	<body>
+		
+		<!-- key -accesing using $ then get value-->
+		<!-- i want to access user data from the object in the ui-->
+		
+		User Id : <p th:text="${user.id}"></p>   <!--user-key id-in that user(id - property/varaible)--> 
+		
+		User Name : <p th:text="${user.name}"></p> 
+		
+		User Email : <p th:text="${user.email}"></p> 
+		
+	</body>
+</html>
